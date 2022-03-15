@@ -1,0 +1,24 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+@import url('https://unpkg.com/nes.css/css/nes.css');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: rgba(0,0,0,0);
+}
+
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.is-left {
+	text-align: left;
+}
+
+.is-centered {
+	text-align: center;
+}
+
+.nes-table {
+  width: {{mainWidth}}%;
+  height: {{mainHeight}}%;
+}

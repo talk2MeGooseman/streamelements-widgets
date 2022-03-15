@@ -1,0 +1,63 @@
+{
+  "mainWidth": {
+    "type": "number",
+    "label": "Width of the Main Container",
+    "value": 1000,
+    "step": 1
+  },
+  "mainHeight": {
+    "type": "number",
+    "label": "Height of the Main Container",
+    "value": 800,
+    "step": 1
+  },
+  "mainMarginLeft": {
+    "type": "number",
+    "label": "Left margin in rem of the Main Container",
+    "value": 1
+  },
+  "mainBGColor": {
+    "type": "colorpicker",
+    "label": "Font color",
+    "value": "rgb(255, 255, 255)"
+  },
+  "direction": {
+    "type": "dropdown",
+    "label": "Direction:",
+    "value": "top",
+    "options": {
+      "top": "Top",
+      "bottom": "Bottom"
+    }
+  },
+  "recentsFontColor": {
+    "type": "colorpicker",
+    "label": "Font color",
+    "value": "rgb(255, 255, 255)"
+  },
+  "recentsMinBlinkInterval": {
+    "type": "number",
+    "label": "Minumum amount of time till next blink",
+    "value": 5000,
+    "step": 500
+  },
+  "recentsMaxBlinkInterval": {
+    "type": "number",
+    "label": "Maxiumum amount of time till next blink",
+    "value": 10000,
+    "step": 500
+  },
+  "backgroundOpacity": {
+    "type": "number",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "label": "Texture opacity",
+    "value": 50
+  },
+  "backgroundColor": {
+    "type": "colorpicker",
+    "label": "Background color",
+    "value": "rgba(36, 6, 73, 0.15)"
+  }
+}

@@ -1,0 +1,86 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+@import url('https://unpkg.com/nes.css/css/nes.css');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    color: {{fontColor}};
+}
+
+body {
+    background-color: {{backgroundColor}};
+}
+
+.main-container{
+    flex-direction: reverse-column;
+    height: 100%;
+}
+
+.nes-container {
+  border: unset;
+}
+
+.message-list {
+  flex-direction: column-reverse;
+  display: flex;
+  height: 100%;
+}
+
+.row{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.row > div {
+  overflow: hidden;
+  display: block;
+}
+
+
+.badge{
+    display:inline;
+    height:{{fontSize}}px;
+}
+
+.user-box{
+    display:inline;
+    font-size:{{fontSize}}px;
+}
+
+.user-box > span{
+    font-size:{{fontSize}}px;
+}
+
+.user-message{
+    display:inline;
+    font-size:{{fontSize}}px;
+    word-wrap: break-word;
+}
+
+.emote{
+    height: {emoteSize}px;
+    vertical-align: middle;
+    background-repeat:no-repeat;
+}
+
+.action{
+    font-style: italic;
+}
+
+
+.nes-balloon.is-dark {
+  border-image-repeat: unset;
+  box-shadow: unset;
+  background-color: {{bubbleBackgroundColor}};
+}
+
+.nes-balloon.is-dark.from-right::before {
+  box-shadow: unset;
+  background-color: {{bubbleBackgroundColor}};
+}
+
+.nes-balloon.is-dark.from-left::before {
+  box-shadow: unset;
+  background-color: {{bubbleBackgroundColor}};
+}
+

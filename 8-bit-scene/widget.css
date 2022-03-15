@@ -1,0 +1,47 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+@import url('https://unpkg.com/nes.css/css/nes.css');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: rgba(0,0,0,0);
+}
+
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.is-left {
+	text-align: left;
+}
+
+.info-container {
+  display: flex;
+  margin: 0.5rem 0.5rem;
+  color: {{recentsFontColor}};
+}
+
+.main-container {
+  background-color: {{mainBGColor}};
+  width: {{mainWidth}}px;
+  height: {{mainHeight}}px;
+  margin-left: {{mainMarginLeft}}rem !important;
+}
+
+.nes-container.latest-container {
+  width: 350px;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+#latest-follower {
+  animation: blinkings 1.5s infinite;
+}
+
+@keyframes blinking{
+  50%{   color: transparent; }
+  100%{  color: #fff;   }
+}
+
+.hidden {
+  display: none;
+}
