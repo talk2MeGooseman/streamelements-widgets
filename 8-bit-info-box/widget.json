@@ -15,5 +15,15 @@
     "type": "colorpicker",
     "label": "Background color",
     "value": "rgba(36, 6, 73, 0.15)"
+  },
+  "topicId": {
+    "type": "text",
+    "label": "Topic Cmd ID",
+    "value": "622acb0d5b35fd65d24da450"
+  },
+  "todosId": {
+    "type": "text",
+    "label": "Todos Cmd ID",
+    "value": "622ad186da740f6945086dde"
   }
 }

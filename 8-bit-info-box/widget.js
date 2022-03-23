@@ -17,14 +17,14 @@ window.addEventListener('onWidgetLoad', function (obj) {
 
   setInterval(function () {
     // Fetches the topic title
-    fetch(`https://api.streamelements.com/kappa/v2/bot/commands/${  obj.detail.channel.id  }/622acb0d5b35fd65d24da450`)
+    fetch(`https://api.streamelements.com/kappa/v2/bot/commands/${  obj.detail.channel.id  }/${fieldData['topicId']}`)
       .then(response => response.json())
       .then((response) => {
         const element = document.getElementById("topic")
         element.innerHTML = response.reply;
       });
     // Fetches the todo command information
-    fetch(`https://api.streamelements.com/kappa/v2/bot/commands/${  obj.detail.channel.id  }/622ad186da740f6945086dde`)
+    fetch(`https://api.streamelements.com/kappa/v2/bot/commands/${  obj.detail.channel.id  }/${fieldData['todosId']}`)
       .then(response => response.json())
       .then((response) => {
          const todosList = response.reply.split(', ');
